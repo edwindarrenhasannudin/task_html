@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Edwin Darren Hasannudin</title>
+</head>
+<body>
+
+    <!-- Wrapper atau Container -->
+    <div id="container">
+
+        <!-- Header -->
+        <header>
+            <h1 style="text-align: center;">Selamat Datang di Profil Edwin Darren Hasannudin</h1>
+            <p style="text-align: center;"><strong>Kenali Edwin</strong> lebih dekat melalui laman ini.</p>
+            <hr> <!-- Garis pembatas antara header dan konten -->
+        </header>
+
+        <!-- Navigasi -->
+        <nav>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="display: inline; margin-right: 10px;"><a href="#profil">Profil</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="#artikel">Artikel</a></li>
+                <li style="display: inline; margin-right: 10px;"><a href="#kontak">Kontak</a></li>
+                <li style="display: inline;"><a href="#galeri">Galeri</a></li>
+            </ul>
+        </nav>
+
+        <!-- Halaman Utama -->
+        <main>
+
+            <!-- Bagian Profil -->
+            <section id="profil">
+                <h2>Profil Pribadi</h2>
+                <p>Nama: <strong>Edwin Darren Hasannudin</strong></p>
+                <p>Umur: 20 Tahun</p>
+                <p>Hobi: Membaca, menulis, dan <em>belajar</em>.</p>
+                <ul>
+                    <li>Suka dengan teknologi</li>
+                    <li>Suka berolahraga</li>
+                    <li>Menggemari literasi</li>
+                </ul>
+                <details>
+                    <summary>Lebih Lanjut Tentang Saya</summary>
+                    <p>Saya adalah seorang mahasiswa yang gemar belajar pemrograman dan memiliki cita-cita menjadi developer handal di masa depan.</p>
+                </details>
+                <hr>
+            </section>
+
+            <!-- Bagian Artikel -->
+            <section id="artikel">
+                <h2>Artikel Terbaru</h2>
+
+                <!-- Artikel 1 -->
+                <article>
+                    <h3>Manfaat Membaca Buku</h3>
+                    <p>Membaca buku adalah salah satu hobi saya. Aktivitas ini membantu saya memperluas wawasan dan memperdalam pemahaman tentang dunia di sekitar saya.</p>
+                    <blockquote>"Buku adalah jendela dunia."</blockquote>
+                    <footer>Ditulis oleh Edwin</footer>
+                </article>
+                <hr>
+
+                <!-- Artikel 2 -->
+                <article>
+                    <h3>Pentingnya Belajar Pemrograman</h3>
+                    <p><strong>Pemrograman</strong> tidak hanya bermanfaat dalam karir, tetapi juga meningkatkan kemampuan berpikir logis dan <em>problem-solving</em>.</p>
+                    <ul>
+                        <li>Meningkatkan kemampuan logis</li>
+                        <li>Mengasah keterampilan memecahkan masalah</li>
+                        <li>Bermanfaat dalam karier</li>
+                    </ul>
+                    <footer>Ditulis oleh Edwin</footer>
+                </article>
+                <hr>
+
+                <!-- Artikel 3 -->
+                <article>
+                    <h3>Mengapa Olahraga itu Penting?</h3>
+                    <p>Olahraga membantu menjaga kesehatan fisik dan mental. Saya sering berolahraga untuk menjaga <strong>stamina</strong> dan <em>kebugaran</em> tubuh.</p>
+                    <ol>
+                        <li>Kesehatan jantung</li>
+                        <li>Stamina yang lebih baik</li>
+                        <li>Meningkatkan mood</li>
+                    </ol>
+                    <footer>Ditulis oleh Edwin</footer>
+                </article>
+                <hr>
+            </section>
+
+            <!-- Bagian Kontak -->
+            <section id="kontak">
+                <h2>Kontak Saya</h2>
+                <p>Jika Anda ingin menghubungi saya, Anda dapat mengisi formulir di bawah ini:</p>
+                <form action="https://www.example.com/contact" method="POST">
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" placeholder="Nama Anda"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email Anda"><br><br>
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea><br><br>
+                    <input type="submit" value="Kirim">
+                </form>
+                <hr>
+            </section>
+
+            <!-- Galeri Gambar -->
+            <section id="galeri">
+                <h2 style="text-align: center;">Galeri</h2>
+                <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                    <!-- Gambar 1 -->
+                    <figure style="text-align: center; margin: 20px;">
+                        <img src="BacaBuku.jpeg" alt="Foto Membaca Buku" width="200" height="auto" style="border: 1px solid #ddd; border-radius: 8px;">
+                        <figcaption>Foto Membaca Buku</figcaption>
+                    </figure>
+                    <!-- Gambar 2 -->
+                    <figure style="text-align: center; margin: 20px;">
+                        <img src="BelajarPemrograman.jpeg" alt="Foto Belajar Pemrograman" width="200" height="auto" style="border: 1px solid #ddd; border-radius: 8px;">
+                        <figcaption>Foto Belajar Pemrograman</figcaption>
+                    </figure>
+                    <!-- Gambar 3 -->
+                    <figure style="text-align: center; margin: 20px;">
+                        <img src="Berolahraga.jpeg" alt="Foto Berolahraga" width="200" height="auto" style="border: 1px solid #ddd; border-radius: 8px;">
+                        <figcaption>Foto Berolahraga</figcaption>
+                    </figure>
+                </div>
+                <hr>
+            </section>
+
+        </main>
+
+        <!-- Sidebar -->
+        <aside style="padding: 20px; border-radius: 10px; margin: 20px 0;">
+            <h3 style="text-align: center;">Informasi Tambahan</h3>
+            <p style="text-align: center;">Jangan lupa untuk terus belajar dan menjaga kesehatan setiap hari. Kami menawarkan langganan majalah untuk tips dan informasi terbaru.</p>
+        
+            <!-- Form Langganan -->
+            <form action="https://www.example.com/subscribe" method="POST" style="text-align: center; margin-top: 20px;">
+                <label for="email" style="font-weight: bold; display: block; margin-bottom: 10px;">Langganan Majalah:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email" style="padding: 10px; width: 80%; border: 1px solid; border-radius: 5px; margin-bottom: 10px;"><br>
+                <input type="submit" value="Langganan" style="padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+            </form>
+        </aside>
+
+        <!-- Footer -->
+        <footer>
+            <hr> <!-- Garis pembatas sebelum footer -->
+        
+            <!-- Kontak -->
+            <p>Kontak: <a href="mailto:edwin.122140111@student.itera.ac.id">edwin.122140111@student.itera.ac.id</a></p>
+        
+            <!-- Copyright -->
+            <p>&copy; 2024 <strong>Edwin Darren Hasannudin</strong>. All rights reserved.</p>
+        
+            <!-- Social Media -->
+            <p>Social Media:</p>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </footer>
+
+    </div> <!-- Akhir dari Container -->
+
+</body>
+</html>
